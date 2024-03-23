@@ -111,25 +111,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "IR1(🇮🇷) § 0",
-      "local_address": [
-        "172.16.0.2/24",
-        "2606:4700:110:83f6:e29:4fab:c809:d4ba/128"
-      ],
-      "private_key": "oN/4svHyNEjFVzb+c/soLLAewPbT3S3egnqCHubJaF0=",
-      "server": "162.159.195.93",
-      "server_port": 2506,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "AAAA",
-      "mtu": 1280,
-      "fake_packets": "5-10",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "20-250"
-    },
-    {
-      "type": "wireguard",
-      "tag": "Proxy1(🇩🇪) § 1",
-      "detour": "IR1(🇮🇷) § 0",
+      "tag": "Proxy1(🇩🇪) § 0",
+      "detour": "IR1(🇮🇷) § 3",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8139:49f6:8c25:7afd:6eb/128"
@@ -143,25 +126,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "IR2(🇮🇷) § 2",
-      "local_address": [
-        "172.16.0.2/24",
-        "2606:4700:110:8366:e55:519f:8a06:7bde/128"
-      ],
-      "private_key": "CFalzfow9Ykb/tfQWE5Wg2F5X85mxVpHnZRkFSyAzW8=",
-      "server": "188.114.97.20",
-      "server_port": 988,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "AAAA",
-      "mtu": 1280,
-      "fake_packets": "5-10",
-      "fake_packets_size": "40-100",
-      "fake_packets_delay": "20-250"
-    },
-    {
-      "type": "wireguard",
-      "tag": "Proxy2(🇩🇪) § 3",
-      "detour": "IR2(🇮🇷) § 2",
+      "tag": "Proxy2(🇩🇪) § 1",
+      "detour": "IR2(🇮🇷) § 4",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:868e:edd9:3600:8a55:7764/128"
